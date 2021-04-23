@@ -1,0 +1,8 @@
+swagger:
+  description: |
+    ## Description
+    A [RESTful API](https://en.wikipedia.org/wiki/Representational_state_transfer) for interacting with Rewards Points API.
+    ## Overview
+    POST - Add transactions for a specific payer and date. </br>
+    DELETE - Spend points using the rule (oldest points to be spent first (oldest based on transaction timestamp, not the order they’re received) and return a list of ​{ "payer": <string>, "points": <integer> }​ for each call. </br>
+    GET Return all payer point balances.
