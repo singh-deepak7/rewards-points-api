@@ -166,3 +166,31 @@ Rewards added
 #### Response Status:
 
 	404 Not Found
+	
+#### Bad request:
+
+```
+{
+    "status": 400,
+    "error": "INVALID_INPUT",
+    "message": "Invalid input"
+}
+```
+
+#### Response Status:
+
+	400 Bad Request
+
+#### Server Error:
+
+```
+{
+    "status": 500,
+    "error": "INTERNAL_SERVER_ERROR",
+    "message": "Something went wrong"
+}
+```
+
+#### Response Status:
+
+	500 Internal Server Error
