@@ -25,10 +25,10 @@ Fetch Rewards Coding Exercise
 	2. cd rewards-point-api
 	3. mvn spring-boot:run
 
-### Can also import in STS and right click on projecta nd select Run As -> Spring boot App.
+### Can also import in STS (Spring Tool Suite) and right click on projecta nd select Run As -> Spring boot App.
 
 
-## API Documentation:
+## API Documentation: 
 
 Once app is app Swagger can be access via link - http://localhost:8080/rewards-points-api
 
